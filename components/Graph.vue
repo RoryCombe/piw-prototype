@@ -7,8 +7,6 @@ import Vue from 'vue'
 import { Plotly } from 'vue-plotly'
 import SampleData from '~/sample_data/indexData_201.json'
 
-console.log(SampleData)
-
 export default Vue.extend({
   components: {
     Plotly
